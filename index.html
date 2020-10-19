@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang = "fr">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>Document</title>
+    
+    </head>
+
+    <body>
+        <form>
+            <label for="name">(Name 4 to 8 characters):</label>
+            <input type="text">
+            <hr>
+            <label for="checkbox">checkbox</label>
+            <input type="checkbox">
+            <hr>
+            <label for="date">date</label>
+            <input type="date" id="date" name="date" value="2018-07-22">
+            <hr>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+            <hr>
+            <label for="number">number</label>
+            <input type="number">
+            <hr>
+            <label for="color">color:</label>
+            <input for="color" id="color" name="color"></input>
+            <hr>
+            <label for="button">button:</label>
+            <input type="button" value="Add to favorites">
+            <hr>
+            <input type="range" id="start" name="valume" min="0" max="100">
+            <label for="valume">valume</label>
+            <hr>
+
+            <p>votre animal de compagne</p>
+
+            <div>
+                <input type="radio" name="drone" id="chat" value="chat" checked>
+                <label for="chat">chat</label>
+            </div>
+
+            <div>
+                <input type="radio" name="drone" id="chien" value="chien">
+                <label for="chien">chien</label>
+            </div>
+
+            <div>
+                <input type="radio" name="drone" id="chien" value="lapin">
+                <label for="lapin">lapin</label>
+            </div>
+        </form>
+    </body>
+</html>
